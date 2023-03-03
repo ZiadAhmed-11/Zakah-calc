@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  </head>
+  <body>
+      <h2 class="title">Scroll </h2>
+      <section></section>
+        <div class="container">
+            <h2>Zamalek Sporting Club</h2>
+            <p>Zamalek Sports Club, or as it is known as Zamalek Club for short, is an Egyptian professional sports
+                 club that plays in the Egyptian League, and it is one of seven clubs that have not been relegated to 
+                 the second division, and it is one of the clubs that have never been
+                 relegated from the top of Egyptian football. Since the start of the league alongside 
+                 Al-Ahly.Zamalek established itself as the second major force in Egyptian football during the
+                  1920s, as it became the second Egyptian team to win titles. Zamalek was the first Egyptian team
+                   to win Sultan Hussein Cup in 1921 and 1922, 
+                 the Egypt Cup in 1922;[10] and the Cairo League in 1922–23.[11] It is one of two clubs that have
+                  played in every season of the Egyptian Premier League, and one of seven that have never been
+                   relegated to the Egyptian Second Division.</p>
+        </div>
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script>let section=document.querySelector('section');
+    window.addEventListener('scroll',   function(){
+        let value=window.scrollY;
+        section.style.clipPath="circle("+value+"px at center)"
+    })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
